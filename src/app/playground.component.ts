@@ -4,7 +4,7 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './playground.component.html'
 })
 export class PlaygroundComponent implements OnInit {
-    @Input() dateInput: Date = new Date("2017/04/04");
+    dateInput: String = new Date("2017/04/04").toDateString();
     constructor(
     ) {};
     ngOnInit(): void {

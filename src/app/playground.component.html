@@ -1,4 +1,4 @@
 <fieldset>
-    <date-picker [(dateInput)]="dateInput" ></date-picker>
-    {{dateInput | date : "MM/dd/yyyy"}}
+    <date-picker [(pickerInput)]="dateInput" ></date-picker>
+    <div>{{dateInput | date : "MM/dd/yyyy"}}</div>
 </fieldset>
